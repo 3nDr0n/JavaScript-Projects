@@ -1,2 +1,2 @@
-var A="Rest in Peace Her Majesty, Queen Elizabeth II"
-window.alert(A);
+var xbox="Halo", playstation="Uncharted", nintendo="Zelda"
+document.write(xbox)
