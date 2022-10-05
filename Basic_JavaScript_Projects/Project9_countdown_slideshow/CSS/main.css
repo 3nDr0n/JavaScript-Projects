@@ -1,0 +1,27 @@
+* {box-sizing:border-box}
+
+/* container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* hide images */
+.mySlides {
+  display: none;
+}
+
+/* animation */
+.slide {
+  animation-name: slide-right;
+  animation-duration: 1.5s;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%}
+  to   {
+    margin-left: 0%}
+}
+
